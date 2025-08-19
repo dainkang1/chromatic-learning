@@ -1,0 +1,236 @@
+/* Regular Badge Styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border: 1px solid transparent;
+}
+
+/* Badge Variants */
+.badge--primary {
+  background-color: #0066cc;
+  color: white;
+}
+
+.badge--secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.badge--success {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge--danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.badge--warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.badge--info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.badge--light {
+  background-color: #f8f9fa;
+  color: #495057;
+  border-color: #dee2e6;
+}
+
+.badge--dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.badge--outline-primary {
+  background-color: transparent;
+  color: #0066cc;
+  border-color: #0066cc;
+}
+
+.badge--outline-secondary {
+  background-color: transparent;
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.badge--outline-success {
+  background-color: transparent;
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.badge--outline-danger {
+  background-color: transparent;
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.badge--outline-warning {
+  background-color: transparent;
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.badge--outline-info {
+  background-color: transparent;
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+/* Badge Sizes */
+.badge--small {
+  font-size: 11px;
+  padding: 2px 6px;
+}
+
+.badge--medium {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.badge--large {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+/* Badge Shapes */
+.badge--rounded {
+  border-radius: 4px;
+}
+
+.badge--pill {
+  border-radius: 50px;
+}
+
+.badge--square {
+  border-radius: 0;
+}
+
+.badge--circle {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+.badge--large.badge--circle {
+  width: 32px;
+  height: 32px;
+}
+
+.badge--small.badge--circle {
+  width: 20px;
+  height: 20px;
+}
+
+/* Notification Badge Styles */
+.badge-container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-notification {
+  position: absolute;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0 6px;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.badge-notification--dot {
+  min-width: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  padding: 0;
+  border-width: 1px;
+}
+
+/* Notification Badge Variants */
+.badge-notification--primary {
+  background-color: #0066cc;
+}
+
+.badge-notification--secondary {
+  background-color: #6c757d;
+}
+
+.badge-notification--success {
+  background-color: #28a745;
+}
+
+.badge-notification--danger {
+  background-color: #dc3545;
+}
+
+.badge-notification--warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.badge-notification--info {
+  background-color: #17a2b8;
+}
+
+/* Notification Badge Positions */
+.badge-notification--top-right {
+  top: -10px;
+  right: -10px;
+}
+
+.badge-notification--top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.badge-notification--bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+
+.badge-notification--bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+
+.badge-notification--dot.badge-notification--top-right {
+  top: -4px;
+  right: -4px;
+}
+
+.badge-notification--dot.badge-notification--top-left {
+  top: -4px;
+  left: -4px;
+}
+
+.badge-notification--dot.badge-notification--bottom-right {
+  bottom: -4px;
+  right: -4px;
+}
+
+.badge-notification--dot.badge-notification--bottom-left {
+  bottom: -4px;
+  left: -4px;
+}
