@@ -21,6 +21,7 @@
   font-size: 12px;
 }
 .storybook-button--medium {
+  background-color: #a63499;
   padding: 11px 20px;
   font-size: 14px;
 }
